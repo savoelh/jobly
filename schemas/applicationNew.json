@@ -1,0 +1,32 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1669496449.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"username",
+		"job_id"
+	],
+	"properties": {
+		"username": {
+			"$id": "#root/username", 
+			"title": "Username", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"savoelh"
+			],
+			"pattern": "^.*$"
+		},
+		"job_id": {
+			"$id": "#root/job_id", 
+			"title": "Job_id", 
+			"type": "integer",
+			"examples": [
+				1
+			],
+			"default": 0
+		}
+	}
+}
